@@ -3,6 +3,7 @@ import forms from "@tailwindcss/forms";
 import flowbite from "flowbite/plugin";
 /** @type {import('tailwindcss').Config} */
 export default {
+    darkMode: false, // ✅ ADD THIS
     content: [
         "./vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php",
         "./storage/framework/views/*.php",
